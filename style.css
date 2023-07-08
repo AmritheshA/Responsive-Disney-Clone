@@ -48,7 +48,7 @@ body {
     right: 0;
     bottom: 0;
     left: 0;
-    padding: 1rem;
+    padding: 5vw;
   }
 
   .card-img-topssss {
@@ -66,7 +66,7 @@ body {
 
   
   .textDoverly {
-    margin-top: 23rem;
+    margin-top: 50vh;
     font-weight: 500;
 
   }
@@ -225,7 +225,7 @@ li {
     flex-direction:column;
   }
   .imgess121{
-    margin-left:15rem;
+    margin-left:12rem;
   }
   .ool{
     display: flex;
@@ -233,15 +233,18 @@ li {
     margin-left:10rem;
   }
   .ool1{
-    margin-left: 5rem;
+    display: flex;
+    justify-content:center;
   }
   .ool2{
-    margin-left: 5rem;
+    display: flex;
+    justify-content:center;  
   }
   .ool3{
-    margin-left: 4rem;
-  }
+    display: flex;
+    justify-content:center;
+    }
   .iconss{
-    margin-left:12rem;
+    margin-left :30vw;
   }
 }
