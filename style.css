@@ -2,6 +2,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-family: 'Quicksand', sans-serif;
   font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth;
 
 }
 
@@ -33,6 +34,22 @@ body {
 }
 
 
+.play-button-card{
+  position: relative;
+}
+.play-button{
+  position: absolute;
+  width: 10vw;
+  height:15vh;
+  top:25%;
+  left: 40%;
+}
+
+.top-button{
+  
+  display: flex;
+  justify-content: flex-start;}
+
 @media (min-width:760px) {
   .carDbody {
     -ms-flex: 1 1 auto;
@@ -51,6 +68,7 @@ body {
     padding: 5vw;
   }
 
+
   .card-img-topssss {
 
     -ms-flex-negative: 0;
@@ -61,10 +79,8 @@ body {
   }
 
   .card-img-topssss:hover{
-    transform: scale(1.0)
+    transform: scale(1.05);
   }
-
-  
   .textDoverly {
     margin-top: 50vh;
     font-weight: 500;
@@ -98,6 +114,7 @@ body {
     height: 80% !important;
     transition: transform 1s;
   }
+
 
 }
 
